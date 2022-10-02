@@ -62,18 +62,14 @@ const CartProvider = ({ children }: PropsWithChildren) => {
     setCartItems(clearCartItem(cartItems, id));
   };
 
-  return (
-    <CartContext.Provider
-      value={{
-        cartItems,
-        addProductToCart,
-        removeProductFromCart,
-        clearProductFromCart,
-      }}
-    >
-      {children}
-    </CartContext.Provider>
-  );
+  const value = {
+    cartItems,
+    addProductToCart,
+    removeProductFromCart,
+    clearProductFromCart,
+  };
+
+  return <CartContext.Provider value={value}>{children}</CartContext.Provider>;
 };
 
 export default CartProvider;
