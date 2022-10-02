@@ -1,0 +1,147 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Splatoon 3 - Nintendo Switch",
+      "description": "Ink it up with a new entry in the Splatoon series,Discover the Splatlands, a new sun-soaked region with trendsetting inhabitants,Experiment with new styles for Inklings and Octolings,4v4 Turf Wars* are back, with new stages, new maneuvers, and new weapons,Join Agent 3 in a fight against the unruly Octarians in story mode",
+      "price": 59.99,
+      "sale_price": 56.99,
+      "rating": 4.8,
+      "reviews": 602,
+      "thumbnail": "https://m.media-amazon.com/images/I/81Y3Mz9MeUL._SY445_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Xbox Core Wireless Controller - Electric Volt",
+      "description": "Experience the modernized design of the Xbox Wireless Controller in Electric Volt, featuring sculpted surfaces and refined geometry for enhanced comfort during gameplay with battery usage up to 40 hours. Stay on target with a hybrid D-pad and textured grip on the triggers, bumpers, and back-case. Seamlessly capture and share content such as screenshots, recordings, and more with the dedicated Share button. Connect using the USB-C port for direct plug and play to console and PC. Support for AA batteries is included on the rear. Plug in any compatible headset with the 3.5mm audio jack. Use the Xbox Accessories app to remap buttons and create custom controller profiles for your favorite games. Quickly pair with, play on, and switch between devices including Xbox Series X|S, Xbox One, Windows 10 PCs, and Android. iOS support coming in the future.* *Important information: Compatible with select devices and operating system versions; learn more at xbox.com/controller-compatibility. Battery life varies significantly with headsets, additional accessories, usage, and other factors. Testing conducted by Microsoft using standard AA batteries in preproduction units. Button mapping available via Xbox Accessories app for Xbox Series X|S, Xbox One, and Windows 10; app for Windows 10 requires compatible USB-C cable (sold separately). Windows 10: Requires Bluetooth, compatible USB-C? cable, or Xbox Wireless adapter. Each sold separately. Android: Select devices and operating system versions. Some functionality not supported on Android or via Bluetooth?. iOS support coming in the future. Additional platforms supported.",
+      "price": 64.99,
+      "sale_price": 53.99,
+      "rating": 4.7,
+      "reviews": 85613,
+      "thumbnail": "https://m.media-amazon.com/images/I/31GjfDGVXZL._SX466_.jpg"
+    },
+    {
+      "id": 3,
+      "title": "PS5 Console- Horizon Forbidden West Bundle",
+      "description": "Get thePlayStation®5 Console –Horizon Forbidden West™ Bundle to join Aloy as she braves a dangerous frontier on PS5™.Enjoy Horizon Forbidden West PS5 innovations including 4K and HDR visuals*, DualSense™ wireless controller adaptive triggersand haptic feedback, Tempest 3D AudioTech when using stereo headphones (analogue or USB) and more.*4K and HDR require a 4K and HDR compatible TV or display. PlayStation®5 Console –Horizon Forbidden West™ Bundle includes: PlayStation5 console; DualSense™ wireless controller; Base; HDMI® cable; AC power cord; USB cable; Printed materials; ASTRO’s PLAYROOM (Pre-installed game. PS5™ console may need to be updated to the latest system software version. Internet connection required.); Horizon Forbidden Westfull game voucher",
+      "price": 549.99,
+      "rating": 4.8,
+      "reviews": 3327,
+      "thumbnail": "https://m.media-amazon.com/images/I/71fa5+U25cL._SL1500_.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Meta Quest 2 — Advanced All-In-One Virtual Reality Headset — 128 GB",
+      "description": "For ages 13 and up only. *Offer valid with the purchase of a new Meta Quest 2 device (128GB or 256GB) (“Qualifying Product”) between August 1, 2022 12:01 AM PST– December 31, 2022 11:59 PM PST and while supplies last. User account (“Account”) required. Offer Item (digital content): Beat Saber in the Meta Quest Store (approx. retail value $29.99). Additional downloadable content, including future music packs and other content, sold separately. To receive Offer Item, Qualifying Product must be first activated between August 1, 2022 12:01 AM PST - January 31, 2023 11:59 PM PST through an Account without Beat Saber entitlement previously enabled on such account (“Activation”). Upon Activation, you will receive a notification message via email, in your mobile app, and in VR with a link to redeem the Offer Item from the Meta Quest Store. There are no redemption codes in connection with this Offer. Offer Item must be redeemed within 14 days upon Activation. Once redeemed, Offer Item remains available for download indefinitely. Limit of one (1) Offer Item per Qualifying Product, regardless of the number of Accounts connected to such Qualifying Product. Qualifying Products first activated through an Account with Beat Saber entitlement previously enabled are ineligible to receive Offer Item. Not valid on prior orders or purchases. Offer is non-transferable, not for resale, and not valid for cash or cash equivalent. Offer may be canceled or modified at any time without notice. Void where prohibited or restricted.",
+      "price": 399.99,
+      "rating": 4.8,
+      "reviews": 70840,
+      "thumbnail": "https://m.media-amazon.com/images/I/61tE7IcuLmL._SL1500_.jpg"
+    },
+    {
+      "id": 5,
+      "title": "DualShock 4 Wireless Controller for PlayStation 4 - Jet Black",
+      "description": "The DualShock 4 Wireless Controller features familiar controls, and incorporates several innovative features to usher in a new era of interactive experiences. Its definitive analog sticks and trigger buttons have been improved for greater feel and sensitivity. A multi touch, clickable touch pad expands gameplay possibilities, while the incorporated light bar in conjunction with the PlayStation Camera allows for easy player identification and screen adjustment when playing with friends in the same room. The addition of the Share button makes utilizing the social capabilities of the PlayStation 4 as easy as the push of a button. The DualShock 4 Wireless Controller is more than a controller; it's your physical connection to a new era of gaming.",
+      "price": 55.97,
+      "sale_price": 56.99,
+      "rating": 4.7,
+      "reviews": 138805,
+      "thumbnail": "https://m.media-amazon.com/images/I/61IG46p-yHL._SX522_.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Xbox Series S – Fortnite & Rocket League Bundle",
+      "description": "Get the all-digital Xbox Series S – Fortnite & Rocket League Bundle featuring the Midnight Drive Pack, 1,000 V-Bucks, and 1,000 Rocket League credits. With the Midnight Drive Pack for Fortnite, you can customize your avatar with the Dark Skully outfit, Dark Skully Satchel Back Bling, Dark Splitter pickaxe, and 1,000 V-Bucks to spend on favorite items in Fortnite Battle Royale and more. For Rocket League add-on content, you get the standout Purple Masamune Car, Purple Virtual Wave Boost, Purple Zefram Wheels, and 1,000 Rocket League Credits that can be used to build Blueprints, upgrade to Rocket Pass Premium, or purchase most-wanted content from the Rocket League Item Shop. And, since Fortnite and Rocket League are free-to-play with Xbox, you can get right to gaming with friends.",
+      "price": 319,
+      "sale_price": 298.99,
+      "rating": 4.8,
+      "reviews": 4985,
+      "thumbnail": "https://m.media-amazon.com/images/I/71ImGywfeQL._SL1314_.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Horizon Forbidden West Collector's Edition - PS4 and PS5 Entitlements",
+      "description": "Join Aloy as she braves the Forbidden West - a majestic but dangerous frontier that conceals mysterious new threats. Explore distant lands, fight bigger and more awe-inspiring machines, and encounter astonishing new tribes as you return to the far-future, post-apocalyptic world of Horizon. The land is dying. Vicious storms and an unstoppable blight ravage the scattered remnants of humanity, while fearsome new machines prowl their borders. Life on Earth is hurtling towards another extinction, and no one knows why. It's up to Aloy to uncover the secrets behind these threats and restore order and balance to the world. Along the way, she must reunite with old friends, forge alliances with warring new factions and unravel the legacy of the ancient past - all the while trying to stay one step ahead of a seemingly undefeatable new enemy.",
+      "price": 199.99,
+      "rating": 4.4,
+      "reviews": 293,
+      "thumbnail": "https://m.media-amazon.com/images/I/81jxpqvSJyL._SL1500_.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Gaming Chair Office Chair High Back Computer Chair Leather Desk Chair Mesh Ergonomic Adjustable Swivel Task Chair with Headrest and Lumbar Support, 400lb Capacity,Red",
+      "description": "YSSOA gaming chair extends the full length of the chair to support the shoulders, head, and neck. Brand new and high quality video game chair, comes with comfortable arm rests, sturdy metal base and adjustable height gas-spring to provide you with an excellent seating experience when you work or relax.",
+      "price": 115.99,
+      "rating": 3.8,
+      "reviews": 854,
+      "thumbnail": "https://m.media-amazon.com/images/I/61gmXNWdZML._AC_SL1500_.jpg"
+    },
+    {
+      "id": 9,
+      "title": "RESPAWN FLEXX Gaming Chair Mesh Ergonomic High Back PC Computer Desk Office Chair - Adjustable Lumbar Support, Seat-Slide, 115 Degree Syncro-Tilt Recline, 2D Armrests & Headrest, 300lb Max - Grey",
+      "description": "The sleekest addition to the RESPAWN® seating line-up: RESPAWN FLEXX. Designed in collaboration with professional gamers, this highback gaming chair is packed with ergonomic features that work for you and your game. FLEXX is innovatively designed with a 2x stronger mesh that keeps you cool as you grind on through the game. Meant for your gaming session with friends or a casual day working from home, the FLEXX features an adjustable recline with tension control to give the user ultimate control over their comfort. Height- and depth- adjustable armrests paired with an adjustable, padded lumbar provide the ultimate support through hours of sitting. 300 lb weight limit. Pneumatic seat height adjustment controls the seat's up and down movement to adapt to various user heights and the chair holds users up to 300 lb. With 75 years of ergonomic workplace furniture experience, RESPAWN builds gaming furniture that is designed for performance and ergonomic comfort. Covered by the RESPAWN 5-Year Limited Warranty. Built for comfort, built to win.",
+      "price": 399.99,
+      "rating": 3.6,
+      "reviews": 5,
+      "thumbnail": "https://m.media-amazon.com/images/I/61YYQgEyl6L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Google Nest Protect - Smoke Alarm - Smoke Detector and Carbon Monoxide Detector - Battery Operated , White - S3000BWES",
+      "description": "Google Nest Protect (Battery) packaged with a Google Seal for Online Marketplace",
+      "price": 118,
+      "rating": 4.6,
+      "reviews": 7346,
+      "thumbnail": "https://m.media-amazon.com/images/I/714dK+uZTUL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 11,
+      "title": "First Alert Onelink Safe & Sound - Smart Hardwired Smoke + Carbon Monoxide Alarm and Premium Home Speaker with Amazon Alexa",
+      "description": "Protect your home and your family, and enjoy a hands free voice controlled speaker with a great audio experience at the same time. First Alert's Onelink Safe & Sound is a smart smoke and carbon monoxide alarm with Alexa Voice Services enabled. Ask Safe & Sound to play music or audiobooks, read you the news, control smart home devices, and more. Leveraging your home’s hardwiring and using optimal ceiling placement, Safe & Sound fills any room with immersive, 360 degree high end audio. Advanced microphones let Safe & Sound hear your voice commands from any direction—even when music is playing. This 3 in 1 alarm is also powered by First Alert’s intelligent smoke and carbon monoxide protection, and warns you about danger in your home and its location with an 85 decibel alarm plus voice alert. With First Alert’s free Onelink Home app, Safe & Sound can also remotely notify you of a smoke or carbon monoxide emergency in your home via your phone or tablet. Safe & Sound installs just like a standard hardwired smoke alarm, so you can easily replace existing alarms. Adapter plugs are included to save you the hassle of rewiring and to simplify installation. It’s compatible with Apple HomeKit.",
+      "price": 277.99,
+      "sale_price": 188.95,
+      "rating": 3.9,
+      "reviews": 1067,
+      "thumbnail": "https://m.media-amazon.com/images/I/81LqUU2vHTL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Eve Door & Window - Apple HomeKit Smart Home Wireless Contact Sensor for Windows & Doors, Automatically Trigger Accessories & Scenes, App Notifications, Bluetooth, Thread, 3 Pack",
+      "description": "Know the status of your door or window. Equip it to automatically control other HomeKit-enabled accessories throughout your home. And receive notifications while you’re on the go, courtesy of your ever-present home hub. Unassuming and a breeze to install with no tools required, Eve Door & Window is powered by a long-lasting, replaceable battery and boasts truly wireless, energy-efficient operation thanks to Bluetooth Low Energy and Thread technology. With Eve Door & Window, enjoy cutting-edge convenience and everyday peace of mind.",
+      "price": 99.9,
+      "sale_price": 87.78,
+      "rating": 4.6,
+      "reviews": 619,
+      "thumbnail": "https://m.media-amazon.com/images/I/71O4Ipss3-L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Sense Energy Monitor with Solar – Track Electricity Usage and Solar Production in Real Time Meets Rigorous ETL/Intertek Safety Standards",
+      "description": "Ink it up with a new entry in the Splatoon series,Discover the Splatlands, a new sun-soaked region with trendsetting inhabitants,Experiment with new styles for Inklings and Octolings,4v4 Turf Wars* are back, with new stages, new maneuvers, and new weapons,Join Agent 3 in a fight against the unruly Octarians in story mode",
+      "price": 349,
+      "rating": 4.1,
+      "reviews": 679,
+      "thumbnail": "https://m.media-amazon.com/images/I/71t0IHuNTYL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Samsung 970 EVO Plus SSD 2TB NVMe M.2 Internal Solid State Hard Drive w/ V-NAND Technology, Storage and Memory Expansion for Gaming, Graphics w/ Heat Control, Max Speed, MZ-V7S2T0B/AM",
+      "description": "ALWAYS EVOLVING SSD: Faster than the 970 EVO, the 970 EVO Plus is powered by the latest V-NAND technology and firmware optimization; It maximizes the potential of NVMe bandwidth for unbeatable computing; Comes in capacities of up to 2TB, with reliability of up to 1,200 TBW.LEVEL UP PERFORMANCE: The 970 EVO Plus reaches sequential read/write speeds up to 3,500/3,300 MB/s,* up to 53%** faster than the 970 EVO; Powered by the latest V-NAND technology—which brings greater NAND performance and higher power efficiency.DESIGN FLEXIBILITY: The 970 EVO Plus fits up to 2TB onto the compact M.2 (2280) form factor, greatly expanding storage capacity and saving space for other components; Samsung's innovative technology empowers you with the capacity to do more and accomplish more.EXCEPTIONAL ENDURANCE: Get up to 1,200 TBW*** with a 5-year limited warranty**** for lasting performance; The 970 EVO Plus provides exceptional endurance powered by the latest V-NAND technology and Samsung's reputation for quality.UNPARALLELED RELIABILITY: Samsung's advanced nickel-coated controller and heat spreader on the 970 EVO Plus enable superior heat dissipation; The Dynamic Thermal Guard automatically monitors and maintains optimal operating temperatures to minimize performance drops.SAMSUNG MAGICIAN: Keep an eye on your drive with software that provides a suite of user-friendly tools that help you keep your drive up to date, monitor drive health and speed, and even boost performance",
+      "price": 499.99,
+      "sale_price": 189.99,
+      "rating": 4.9,
+      "reviews": 42253,
+      "thumbnail": "https://m.media-amazon.com/images/I/813bvfaxuAL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Seagate BarraCuda 2TB Internal Hard Drive HDD – 3.5 Inch SATA 6Gb/s 7200 RPM 256MB Cache 3.5-Inch – Frustration Free Packaging (ST2000DM008/ST2000DMZ08)",
+      "description": "Ink it up with a new entry in the Splatoon series,Discover the Splatlands, a new sun-soaked region with trendsetting inhabitants,Experiment with new styles for Inklings and Octolings,4v4 Turf Wars* are back, with new stages, new maneuvers, and new weapons,Join Agent 3 in a fight against the unruly Octarians in story mode",
+      "price": 58.99,
+      "sale_price": 49.99,
+      "rating": 4.7,
+      "reviews": 96377,
+      "thumbnail": "https://m.media-amazon.com/images/I/71Czt9ypIbL._AC_SL1500_.jpg"
+    }
+  ]
+}
