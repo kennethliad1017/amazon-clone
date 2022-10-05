@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import { Link } from "react-router-dom";
 import { CartContext } from "../../context/Cart.context";
 import { CartContextType } from "../../context/types";
 import "./navbar.styles.css";
@@ -8,10 +9,12 @@ const Navbar = () => {
 
   return (
     <div className="header">
-      <img
-        className="header__logo"
-        src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
-      />
+      <Link to="/">
+        <img
+          className="header__logo"
+          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+        />
+      </Link>
       <div className="header__search">
         <input type="text" className="header__searchInput" />
         <button className="header__searchIcon material-symbols-rounded size-24">
@@ -35,12 +38,14 @@ const Navbar = () => {
         </div>
 
         <div className="header__cart">
-          <span className="material-symbols-rounded size-24 filled">
-            shopping_basket
-          </span>
-          <span className="header__label header__cartCount">
-            {cartItems.length ? cartItems.length : 0}
-          </span>
+          <Link to="/cart" className="h-full flex items-center">
+            <span className="material-symbols-rounded size-24 filled">
+              shopping_basket
+            </span>
+            <span className="header__label header__cartCount">
+              {cartItems.length ? cartItems.length : 0}
+            </span>
+          </Link>
         </div>
       </div>
     </div>
