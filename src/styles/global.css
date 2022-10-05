@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bc: 215 28% 17%;
+  --dark_bc: 220 13% 69%;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Arial", "Segoe UI", "Roboto",
@@ -46,4 +51,74 @@ input {
 
 .outlined {
   font-variation-settings: "FILL" 0 !important;
+}
+
+.divider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: stretch;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 1rem;
+  white-space: nowrap;
+}
+.divider:before,
+.divider:after {
+  content: "";
+  flex-grow: 1;
+  height: 0.125rem;
+  width: 100%;
+}
+
+.divider:before {
+  --tw-bg-opacity: 0.2;
+  background-color: hsl(var(--bc) / var(--tw-bg-opacity));
+}
+.divider::after {
+  --tw-bg-opacity: 0.2;
+  background-color: hsl(var(--bc) / var(--tw-bg-opacity));
+}
+.divider:not(:empty) {
+  gap: 1rem;
+}
+
+.divider-horizontal {
+  flex-direction: column;
+}
+.divider-horizontal:before {
+  height: 100%;
+  width: 0.0833rem;
+}
+.divider-horizontal:after {
+  height: 100%;
+  width: 0.0833rem;
+}
+.divider-vertical {
+  flex-direction: row;
+}
+.divider-vertical:before {
+  height: 0.125rem;
+  width: 100%;
+}
+.divider-vertical:after {
+  height: 0.125rem;
+  width: 100%;
+}
+
+.divider-horizontal {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  height: auto;
+  width: 1rem;
+}
+.divider-vertical {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 1rem;
+  width: auto;
 }
