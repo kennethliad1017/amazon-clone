@@ -17,7 +17,9 @@ export interface ICart {
 
 export type CartContextType = {
   cartItems: ICart[];
+  subTotal: number;
   addProductToCart: (productToAdd: IProduct) => void;
   removeProductFromCart: (productToRemove: IProduct) => void;
   clearProductFromCart: (id: string) => void;
+  clearProductsFromCart: () => void;
 };

@@ -1,4 +1,4 @@
-import { createContext, PropsWithChildren, useState } from "react";
+import { createContext, PropsWithChildren, useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 
 import { CartContextType, ICart, IProduct } from "./types";
@@ -42,13 +42,17 @@ export const clearCartItem = (cartItems: ICart[], id: string): ICart[] =>
 
 export const CartContext = createContext<CartContextType>({
   cartItems: [],
+  subTotal: 0,
   addProductToCart: (productToAdd: IProduct) => {},
   removeProductFromCart: (productToRemove: IProduct) => {},
   clearProductFromCart: (id: string) => {},
+  clearProductsFromCart: () => {},
 });
 
+// CartContext Provider
 const CartProvider = ({ children }: PropsWithChildren) => {
   const [cartItems, setCartItems] = useState<ICart[]>([]);
+  const [subTotal, setSubTotal] = useState(0);
 
   const addProductToCart = (productToAdd: IProduct) => {
     setCartItems(addCartItem(cartItems, productToAdd));
@@ -58,15 +62,33 @@ const CartProvider = ({ children }: PropsWithChildren) => {
     setCartItems(removeCartItem(cartItems, productToRemove));
   };
 
+  const clearProductsFromCart = () => {
+    setCartItems([]);
+  };
+
   const clearProductFromCart = (id: string) => {
     setCartItems(clearCartItem(cartItems, id));
   };
 
+  useEffect(() => {
+    const newCartTotal = cartItems.reduce(
+      (total, cartItem) =>
+        cartItem.product.sale_price
+          ? total + cartItem.quantity * cartItem.product.sale_price
+          : total + cartItem.quantity * cartItem.product.price,
+      0
+    );
+
+    setSubTotal(newCartTotal);
+  }, [cartItems]);
+
   const value = {
     cartItems,
+    subTotal,
     addProductToCart,
     removeProductFromCart,
     clearProductFromCart,
+    clearProductsFromCart,
   };
 
   return <CartContext.Provider value={value}>{children}</CartContext.Provider>;
