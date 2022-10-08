@@ -21,10 +21,23 @@
   width: 100%;
   z-index: -1;
   margin-bottom: -150px;
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
 .home__hero {
   max-height: 230px;
   height: 300px;
+}
+
+.home__hero::before {
+  background: linear-gradient(-180deg, rgba(234, 237, 237, 0), #eaeded);
+  bottom: 0;
+  content: "";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00EAEDED', endColorstr='#EAEDED', GradientType=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#00EAEDED', endColorstr='#EAEDED',GradientType=0)";
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 250px;
+  z-index: 1;
 }

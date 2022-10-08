@@ -1,18 +1,18 @@
+import { IProduct } from "../context/types";
+import useCart from "../hooks/useCart";
 import { ProductCard } from "../components";
 import Hero from "../features/Home/components/Hero.component";
-import "../styles/home.styles.css";
 import dummyData from "../product-dummydata.json";
 import { ProductsGrid } from "../features";
-import { useContext } from "react";
-import { CartContext } from "../context/Cart.context";
-import { CartContextType, IProduct } from "../context/types";
+import { addProductToCart } from "../features/Cart/cartSlice";
+import "../styles/home.styles.css";
 
 function Home() {
-  const { addProductToCart } = useContext<CartContextType>(CartContext);
+  const [_, setCart] = useCart();
   const products = dummyData.products;
 
   const productAddToCart = (product: IProduct) => {
-    addProductToCart(product);
+    setCart(addProductToCart(product));
   };
 
   return (

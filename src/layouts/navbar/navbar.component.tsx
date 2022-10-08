@@ -1,11 +1,9 @@
-import { useContext } from "react";
 import { Link } from "react-router-dom";
-import { CartContext } from "../../context/Cart.context";
-import { CartContextType } from "../../context/types";
+import useCart from "../../hooks/useCart";
 import "./navbar.styles.css";
 
 const Navbar = () => {
-  const { cartItems } = useContext<CartContextType>(CartContext);
+  const [{ cart }] = useCart();
 
   return (
     <div className="header">
@@ -13,6 +11,7 @@ const Navbar = () => {
         <img
           className="header__logo"
           src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+          alt="Amazon"
         />
       </Link>
       <div className="header__search">
@@ -43,7 +42,7 @@ const Navbar = () => {
               shopping_basket
             </span>
             <span className="header__label header__cartCount">
-              {cartItems.length ? cartItems.length : 0}
+              {cart.length ? cart.length : 0}
             </span>
           </Link>
         </div>

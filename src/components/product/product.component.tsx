@@ -64,7 +64,7 @@ function ProductCard({
         </div>
       </div>
 
-      <img src={thumbnail} />
+      <img src={thumbnail} alt={title} />
 
       <button onClick={clickHandler}>Add to Basket</button>
     </div>
